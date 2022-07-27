@@ -4,7 +4,7 @@
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 body {
@@ -62,8 +62,10 @@ p {
 /* Title Image */
 
 .title-image {
-    width: 60%;
+    width: 30%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
 }
 
 /* Featute Container  */
@@ -71,6 +73,8 @@ p {
 #features {
     font-family: 'Montserrat-Bold', sans-serif;
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
 }
 
 .feature-box {
@@ -96,7 +100,7 @@ p {
 }
 
 .carousel-item {
-    
+
     padding: 7% 15%;
 }
 
@@ -115,4 +119,58 @@ p {
 .press-logo {
     margin: 20px 20px 50px;
     width: 15%;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+/* Call to Action */
+
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: 'Montserrat-Black', sans-serif;
+    line-height: 1.5;
+    font-size: 3.5rem;
+}
+
+.download-button-cta {
+    margin-left: 20px;
+}
+
+/* Footer Section */
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: relative;
+        transform: rotate(0);
+    }
 }
